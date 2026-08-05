@@ -27,3 +27,27 @@ Dataset/
 
 # Environment
 .env
+
+# Virtual Environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset files
+Dataset/
+*.csv
+
+# Trained models
+models/
+saved-models/
+*.h5
+*.pth
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
