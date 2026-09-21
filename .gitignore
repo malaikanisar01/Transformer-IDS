@@ -3,7 +3,7 @@
 # ==========================================
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 
 # ==========================================
 # Virtual Environment
@@ -48,7 +48,7 @@ Dataset/
 *.bak
 
 # ==========================================
-# Python cache / generated files
+# Python cache
 # ==========================================
 *.pyc
 *.pyo
@@ -56,15 +56,12 @@ Dataset/
 
 # ==========================================
 # Model files
-# Keep Transformer model required by backend
 # ==========================================
-models/saved_models/lstm_best.pt
-models/saved_models/random_forest.pkl
+models/saved_models/*.pt
+models/saved_models/*.pkl
+!models/saved_models/transformer_best.pt
 
-# Ignore generated model/cache files
-models/__pycache__/
+# ==========================================
+# Databases
+# ==========================================
 databases/*.db
-
-databases/*.db
-
-models/saved_models/
