@@ -1,53 +1,70 @@
+# ==========================================
 # Python
+# ==========================================
 __pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual Environment
+# ==========================================
+venv/
+.venv/
+env/
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Dataset
+# ==========================================
+Dataset/
+*.csv
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# Temporary files
+# ==========================================
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# Python cache / generated files
+# ==========================================
 *.pyc
 *.pyo
 *.pyd
 
-# Virtual Environment
-venv/
+# ==========================================
+# Model files
+# Keep Transformer model required by backend
+# ==========================================
+models/saved_models/lstm_best.pt
+models/saved_models/random_forest.pkl
 
-# Jupyter
-.ipynb_checkpoints/
+# Ignore generated model/cache files
+models/__pycache__/
+databases/*.db
 
-# VS Code
-.vscode/
+databases/*.db
 
-# Model Files
-saved-models/
-*.h5
-*.pth
-*.pt
-
-# Dataset
-Dataset/
-
-# Logs
-*.log
-
-# Environment
-.env
-
-# Virtual Environment
-venv/
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Dataset files
-Dataset/
-*.csv
-
-# Trained models
-models/
-saved-models/
-*.h5
-*.pth
-*.pt
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment variables
-.env
+models/saved_models/

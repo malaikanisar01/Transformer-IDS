@@ -1,0 +1,38 @@
+[
+    {
+        "Model": "Random Forest",
+        "Accuracy": 0.9965511404511024,
+        "Macro Precision": 0.7935993825624708,
+        "Macro Recall": 0.8423295141321202,
+        "Macro F1": 0.8128405029000062,
+        "Weighted Precision": 0.9969657350296874,
+        "Weighted Recall": 0.9965511404511024,
+        "Weighted F1": 0.9967035548438083,
+        "Training Time (sec)": 7.539752006530762,
+        "Prediction Time (sec)": 1.3347358703613281
+    },
+    {
+        "Model": "LSTM",
+        "Accuracy": 0.8825906648047057,
+        "Macro Precision": 0.3810031351876631,
+        "Macro Recall": 0.7609789664550873,
+        "Macro F1": 0.4550255151761264,
+        "Weighted Precision": 0.9520185562295045,
+        "Weighted Recall": 0.8825906648047057,
+        "Weighted F1": 0.9079048338318653,
+        "Training Time (sec)": 579.6438727378845,
+        "Prediction Time (sec)": 5.886373099987395
+    },
+    {
+        "Model": "Transformer",
+        "Accuracy": 0.9562439168888325,
+        "Macro Precision": 0.5535456192044764,
+        "Macro Recall": 0.7783962893101765,
+        "Macro F1": 0.6281358846777325,
+        "Weighted Precision": 0.9669543098069869,
+        "Weighted Recall": 0.9562439168888325,
+        "Weighted F1": 0.959358737625609,
+        "Training Time (sec)": 1434.381618976593,
+        "Prediction Time (sec)": 9.82796859741211
+    }
+]
